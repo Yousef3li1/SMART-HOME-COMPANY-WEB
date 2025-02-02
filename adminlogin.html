@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Home.Co - Login</title>
+  <style>
+    body {
+      background-color: #f8f8f8;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+    header img {
+      height: 50px;
+      margin-right: 20px;
+    }
+    header h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      background-color: #fff;
+      padding: 20px;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav li {
+      margin: 0 10px;
+    }
+    nav a {
+      color: #333;
+      text-decoration: none;
+    }
+    .login-form {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 45px;
+      background-color: rgb(255, 255, 255);
+      border: 1px solid rgb(88, 4, 223);
+      border-radius: 5px;
+    }
+    .login-form h2 {
+      margin: 10px;
+      padding: 10px;
+      font-size: 1.5em;
+      text-align: center;
+    }
+    .login-form form {
+      margin: 20px 0;
+    }
+    .login-form label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .login-form input[type="text"],
+    .login-form input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid lightgray;
+      border-radius: 5px;
+    }
+    .login-form button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+
+
+<body>
+    <header>
+        <img src="R.png" alt="Logo">
+        <h1>Smart Home .Co</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="Home.HTML">Home</a></li>
+          
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="Contact.HTML">Contact</a></li>
+          <li><a href="SignUp.HTml">SignUp</a></li>
+          <li><a href="adminlogin.html">Staff Login</a></li>
+
+        </ul>
+      </nav>
+<div class="login-form">
+    <h2>Login</h2>
+    <form action="adminlogin" method="post">
+      <label for="id">id</label>
+      <input type="text" id="id" name="id" placeholder="Enter your id">
+      <br>
+      <br>
+      
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password">
+      <br><br>
+      <table>
+        <td><button type="submit">Login</button></td>
+        <p>
+        <td><li><a href="https://www.facebook.com/">Forgot Your Password?</a></li></td>         
+      </table>
+     
+      
+    </form>
+  </div>
+</body>
+</html>
